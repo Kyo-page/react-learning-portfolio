@@ -37,3 +37,9 @@ export const WORKS = [
         icon: <BsChatRightQuoteFill className="text-white" />,
     },
 ];
+
+export const SOCIAL = {
+    github: 'https://github.com/Kyo-page',
+    twitter: '',
+    blog: '',
+};
