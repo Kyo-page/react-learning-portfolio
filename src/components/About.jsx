@@ -23,10 +23,8 @@ export const About = () => {
                             </h2>
 
                             <p className="md:text-lg">
-                                私は、プログラミングを始めて約１年半となる、ビギナーの開発者です。
-                                現在は、React、TypeScript、Tailwind CSS などを使用した、
-                                フロントエンド 開発のスキルアップに、情熱を注いでいます。
-                                趣味は、キャンプです🏕️
+                                React初心者の Kyo です！<br />
+                                練習用にポートフォリオサイトを<br />作成しています。
                             </p>
                         </div>
                     </div>
