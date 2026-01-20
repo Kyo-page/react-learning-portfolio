@@ -9,7 +9,7 @@ export const Hero = () => {
           className="hero min-h-[calc(100vh-4rem)] lg:min-h-screen"
           style={{
             backgroundImage:
-              `url(${BASE_URL}assets/hero.jpg)`,
+              `url(${BASE_URL}/hero.jpg)`,
           }}
         >
           <div className="hero-overlay"></div>

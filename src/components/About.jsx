@@ -9,7 +9,7 @@ export const About = () => {
                         <div>
                             <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
                                 <img
-                                    src={`${BASE_URL}assets/about.jpg`}
+                                    src={`${BASE_URL}/about.jpg`}
                                     loading="lazy"
                                     className="h-full w-full object-cover object-center"
                                 />
