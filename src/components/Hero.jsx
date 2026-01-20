@@ -1,4 +1,5 @@
 import { FaGithub } from 'react-icons/fa';
+import { BASE_URL } from "../constants";
 
 export const Hero = () => {
   return (
@@ -8,7 +9,7 @@ export const Hero = () => {
           className="hero min-h-[calc(100vh-4rem)] lg:min-h-screen"
           style={{
             backgroundImage:
-              'url(./assets/hero.jpg)',
+              `url(${BASE_URL}assets/hero.jpg)`,
           }}
         >
           <div className="hero-overlay"></div>

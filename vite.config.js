@@ -4,6 +4,9 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
 export default defineConfig({
+  define: {
+    'process.env': {}
+  },
   base: process.env.GITHUB_PAGES ? "REPOSITORY_NAME" : "./",
   plugins: [react(), tailwindcss()],
 });

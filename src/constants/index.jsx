@@ -1,6 +1,9 @@
 import { FaHandshakeSimple } from 'react-icons/fa6';
 import { BsChatRightQuoteFill } from 'react-icons/bs';
 
+export const BASE_URL =
+    import.meta.env.MODE === "production" ? "https://kyo-page.github.io/react-learning-portfolio/" : "";
+
 export const WORKS = [
     {
         id: 0,

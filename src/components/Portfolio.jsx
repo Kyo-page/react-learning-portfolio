@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { FiExternalLink } from 'react-icons/fi';
-import { WORKS } from '../constants/index.jsx';
+import { BASE_URL, WORKS } from "../constants";
 export const Portfolio = () => {
 
     const [activeId, setActiveId] = useState(0);
@@ -48,7 +48,7 @@ export const Portfolio = () => {
                             <div className="w-full h-full col-span-2 grid lg:grid-rows-4 border border-neutral-content rounded-xl overflow-hidden shadow-lg transition">
                                 <div className="row-span-3">
                                     <img
-                                        src={activeWork.image}
+                                        src={`${BASE_URL}${activeWork.image}`}
                                         alt={activeWork.title}
                                         className="w-full h-full object-cover"
                                     />

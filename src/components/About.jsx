@@ -1,3 +1,5 @@
+import { BASE_URL } from "../constants";
+
 export const About = () => {
     return (
         <>
@@ -7,9 +9,8 @@ export const About = () => {
                         <div>
                             <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
                                 <img
-                                    src="./assets/about.jpg"
+                                    src={`${BASE_URL}assets/about.jpg`}
                                     loading="lazy"
-                                    alt="Photo by Martin Sanchez"
                                     className="h-full w-full object-cover object-center"
                                 />
                             </div>
