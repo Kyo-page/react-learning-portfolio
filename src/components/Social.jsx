@@ -34,9 +34,7 @@ export const Social = () => {
                         </h2>
 
                         <p className="mb-6 md:text-center">
-                            私は、主に下記の媒体で、活動の記録を更新しています。
-                            <br />
-                            そして、多くの開発者と繋がれることを、楽しみにしています🙌
+                            主に以下の媒体で活動しています。
                         </p>
 
                         <div className="grid grid-cols-3 gap-4 max-w-80 mx-auto">

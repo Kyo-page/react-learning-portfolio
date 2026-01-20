@@ -18,7 +18,7 @@ export const Portfolio = () => {
                         </h2>
 
                         <p className="mb-6 sm:text-lg">
-                            学習を通じて、実際に開発した成果物のリストです🤖
+                            学習を通じて、実際に開発した成果物のリストです。
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-y-6 md:gap-x-6 items-stretch">
